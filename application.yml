@@ -1,0 +1,15 @@
+server.port: 8080
+
+info.config.origin: core-gateway-micro
+
+---
+spring:
+    profiles: dev
+
+info.deployment: DEVELOPMENT
+
+---
+spring:
+    profiles: prod
+
+info.deployment: PRODUCTION
